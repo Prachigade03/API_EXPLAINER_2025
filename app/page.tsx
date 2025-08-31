@@ -103,7 +103,7 @@ export default function HomePage() {
         {/* Mode toggle buttons */}
         <div className="flex gap-6 justify-center my-6">
           <button
-            className={`px-6 py-2 rounded-xl shadow-md transition ${
+            className={`px-7 py-3 rounded-xl shadow-md transition ${
               mode === "short"
                 ? "bg-indigo-600 text-white hover:bg-indigo-700"
                 : "bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600"
@@ -113,7 +113,7 @@ export default function HomePage() {
             Short
           </button>
           <button
-            className={`px-6 py-2 rounded-xl shadow-md transition ${
+            className={`px-7 py-3 rounded-xl shadow-md transition ${
               mode === "long"
                 ? "bg-indigo-600 text-white hover:bg-indigo-700"
                 : "bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600"
